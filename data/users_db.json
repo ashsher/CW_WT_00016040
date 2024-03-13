@@ -1,17 +1,5 @@
 [
     {
-        "id": "5IX0",
-        "user": {
-            "ownerName": "Kylie",
-            "ownerPhone": "Jenner",
-            "ownerLocation": "London",
-            "carModel": "Ferrari Italia",
-            "carYear": "2014",
-            "transmission": "manual",
-            "carPrice": "2500000"
-        }
-    },
-    {
         "id": "PIOE",
         "user": {
             "ownerName": "Tony Cipriani",
@@ -21,6 +9,42 @@
             "carYear": "2004",
             "transmission": "manual",
             "carPrice": "68000"
+        }
+    },
+    {
+        "id": "cpdm",
+        "user": {
+            "ownerName": "Cristiano Ronaldo",
+            "ownerPhone": "+998902345678",
+            "ownerLocation": "Lisbon",
+            "carModel": "Lamborghini Murcielago",
+            "carYear": "2004",
+            "transmission": "automatic",
+            "carPrice": "987000"
+        }
+    },
+    {
+        "id": "CISa",
+        "user": {
+            "ownerName": "Vincent Vega",
+            "ownerPhone": "+998917894561",
+            "ownerLocation": "Amsterdam",
+            "carModel": "Mercedes-Benz AMG GT",
+            "carYear": "2015",
+            "transmission": "automatic",
+            "carPrice": "560000"
+        }
+    },
+    {
+        "id": "cYvP",
+        "user": {
+            "ownerName": "Tyler Durden",
+            "ownerPhone": "+998778974521",
+            "ownerLocation": "New York",
+            "carModel": "BMW M5 Competition",
+            "carYear": "2009",
+            "transmission": "manual",
+            "carPrice": "124000"
         }
     }
 ]
