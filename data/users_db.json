@@ -46,5 +46,17 @@
             "transmission": "manual",
             "carPrice": "124000"
         }
+    },
+    {
+        "id": "Fj3X",
+        "user": {
+            "ownerName": "Carl Johnson",
+            "ownerPhone": "+998889632514",
+            "ownerLocation": "Los Angeles",
+            "carModel": "Nissan Skyline GT-R R34",
+            "carYear": "1998",
+            "transmission": "manual",
+            "carPrice": "98000"
+        }
     }
 ]
