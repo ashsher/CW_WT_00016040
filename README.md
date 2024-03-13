@@ -15,4 +15,3 @@ Pug was used to adjust the front-end part of the project instead of HTML, becaus
 Links
 Link to public repository on GitHub: 
 Link to the hosted application:
-
