@@ -1,0 +1,138 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(179, 106, 247);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+/* dealing with anchors of the whole web app */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+/* maintaining navigation bar of web app */
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(238, 79, 166);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    margin: 0 15px;
+}
+
+/* adjusting the registration form */
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px; 
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    width: 48%;
+}
+
+input,
+select {
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: violet;
+    color: black;
+}
+
+/* setting the characteristics of buttons in the web app */
+button {
+    height: 2rem;
+    width: 8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    border: none;
+    background-color: azure;
+    color: blueviolet;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: azure;
+}
+
+/* all cars page */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+/* creating one separate card for the info about one car */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+    background-color: palevioletred;
+}
+
+
+.card h2 {
+    margin-top: 10px;
+}
+
+.card p {
+    margin: 5px;
+}
+
+/* short disclaimer that this web app was created for WebTech module only */
+.web-tech {
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}

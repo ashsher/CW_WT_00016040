@@ -1,0 +1,42 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='/css/style.css')
+nav
+  div
+    a(href='')
+      | Car Seller Company
+  div
+    div
+      a(href='http://localhost:3000/user/all-cars')
+        | See All Cars
+    div
+      a(href='http://localhost:3000/user/register')
+        | Sell Your Car
+.web-tech
+  | This web application was created to fulfill Web Technology module&rsquo;s requirements and does not represent an actual company or service
+.grid-container
+  //- information about one car
+  each car in cars_data 
+    .card
+      h2
+        | #{car.user.carModel}
+      p
+        | #{car.user.ownerLocation}
+      p
+        | Year: #{car.user.carYear}
+      p 
+        | Transmission: #{car.user.transmission}
+      p
+        | Price: $#{car.user.carPrice}
+      p
+        i
+          | #{car.user.ownerName}
+      p
+        strong
+            | #{car.user.ownerPhone}
+      button
+        | Delete
+
+

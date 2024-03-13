@@ -1,0 +1,26 @@
+[
+    {
+        "id": "5IX0",
+        "user": {
+            "ownerName": "Kylie",
+            "ownerPhone": "Jenner",
+            "ownerLocation": "London",
+            "carModel": "Ferrari Italia",
+            "carYear": "2014",
+            "transmission": "manual",
+            "carPrice": "2500000"
+        }
+    },
+    {
+        "id": "PIOE",
+        "user": {
+            "ownerName": "Tony Cipriani",
+            "ownerPhone": "+998915496978",
+            "ownerLocation": "Samarkand",
+            "carModel": "Ford Mustang",
+            "carYear": "2004",
+            "transmission": "manual",
+            "carPrice": "68000"
+        }
+    }
+]

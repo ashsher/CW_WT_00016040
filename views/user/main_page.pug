@@ -1,0 +1,40 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Car Seller Registration
+  script(src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js")
+  script(src="/javascript/scripts.js") 
+  link(rel='stylesheet' href='/css/style.css')
+nav
+  div
+    a(href='#This web application was created to fulfill Web Technology module’s requirements and does not represent an actual company or service')
+      | Car Seller Company
+  div
+    div
+      a(href='http://localhost:3000/user/all-cars')
+        | See All Cars
+    div
+      a(href='http://localhost:3000/user/register')
+        | Sell Your Car 
+.web-tech
+  | This web application was created to fulfill Web Technology module&rsquo;s requirements and does not represent an actual company or service 
+form#form(action='/api/user/register' method='POST')
+  label(for='ownerName') Owner Name:
+  input#ownerName(type='text' name='ownerName' )
+  label(for='ownerPhone') Owner Phone Number:
+  input#ownerPhone(type='tel' name='ownerPhone'  placeholder='+998901234567')
+  label(for='ownerLocation') Owner Location:
+  input#ownerLocation(type='text' name='ownerLocation' )
+  label(for='carModel') Car Model:
+  input#carModel(type='text' name='carModel' )
+  label(for='carYear') Car Year of Production:
+  input#carYear(type='number' name='carYear' min='1900' max='2024' )
+  label(for='transmission') Transmission:
+  select#transmission(name='transmission' )
+    option(value='automatic') Automatic
+    option(value='manual') Manual
+  label(for='carPrice') Price to Sell: ($)
+  input#carPrice(type='number' name='carPrice' min='0' )
+  input(type='submit' value='Submit')
+
