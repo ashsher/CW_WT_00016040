@@ -13,6 +13,7 @@ const web_route = require("./routes/web");
 
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
+app.get("/", (req, res) => { res.send("Express on Vercel"); });
 
 // setting PORT to 3000
 const PORT = 3000;
@@ -28,3 +29,6 @@ app.use("/", web_route);
 console.log("The work of 00016040 successfully works!")
 
 app.listen(PORT, () => console.log(`The server running on port ${PORT}`));
+
+// ... (previous code) 
+module.exports = app; // Export the Express app
