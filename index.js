@@ -28,4 +28,7 @@ app.use("/", web_route);
 
 console.log("The work of 00016040 successfully works!")
 
-app.listen(PORT, () => console.log(`The server running on port ${PORT}`));
+app.listen(PORT, () => { console.log(`Server is running on port ${PORT}`); });
+
+// ... (previous code) 
+module.exports = app; // Export the Express app
