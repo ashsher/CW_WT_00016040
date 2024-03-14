@@ -14,7 +14,7 @@ Pug was used to adjust the front-end part of the project instead of HTML, becaus
 
 Links
 Link to public repository on GitHub:
-
+https://github.com/ashsher/CW_WT_00016040.git
 
 Link to the hosted application:
 https://cw-wt-00016040.vercel.app/
