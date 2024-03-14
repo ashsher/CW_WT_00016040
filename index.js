@@ -13,7 +13,6 @@ const web_route = require("./routes/web");
 
 app.set("view engine", "pug");
 app.set("views", path.join(__dirname, "views"));
-app.get("/", (req, res) => { res.send("Express on Vercel"); });
 
 // setting PORT to 3000
 const PORT = 3000;
