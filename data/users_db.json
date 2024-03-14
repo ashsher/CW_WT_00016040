@@ -58,5 +58,17 @@
             "transmission": "manual",
             "carPrice": "98000"
         }
+    },
+    {
+        "id": "yumb",
+        "user": {
+            "ownerName": "Mirjalol Karimov",
+            "ownerPhone": "+998916666666",
+            "ownerLocation": "Khorezm",
+            "carModel": "Chevrolet Tracker Turbo",
+            "carYear": "2022",
+            "transmission": "automatic",
+            "carPrice": "18000"
+        }
     }
 ]

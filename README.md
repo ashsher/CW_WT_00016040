@@ -13,5 +13,8 @@ Nodemon monitors for changes in web application files and automatically restarts
 Pug was used to adjust the front-end part of the project instead of HTML, because pug is known as common template for Node.js browsers.
 
 Links
-Link to public repository on GitHub: 
+Link to public repository on GitHub:
+
+
 Link to the hosted application:
+https://cw-wt-00016040.vercel.app/
